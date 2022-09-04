@@ -1,0 +1,207 @@
+/* CSS Document */
+
+body{
+	background-color:#FF9966;
+	background-image:url(../images/6.gif);
+	background-repeat:repeat;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11pt;
+
+}
+
+#taalkeuze{
+
+}
+
+a{
+	color:#CC0000;
+	text-decoration:underline;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#0000CC;	
+}
+
+h1{
+	color:#000000;
+	text-decoration:none;
+	font-size:20px;
+	padding-bottom:12px;
+}
+
+h2{
+	font-size:15px;
+	
+}
+
+#container{
+	position:absolute;
+	height:600px;
+	width:1024px;
+	background-color:#999900;	
+	margin-top:-300px;
+	left:50%;
+	top:50%;
+	margin-left:-512px;
+	background-image:url(../images/backgr.gif);
+	background-repeat:repeat-x;
+}
+
+#taalkeuze{
+	width:300px;
+	display:inline;
+	position:absolute;
+	top:0px;
+	right:10px;
+	height:30px;	
+	text-align:right;
+}
+
+.taalkeuze_ul{
+	display:inline;
+
+}
+
+.logo{
+	background-image:url(../images/logo.gif);
+	width:900px;
+	height:200px;
+	
+}
+
+#menu{
+	position:absolute;
+	text-align:center;
+	top:150px;
+	width:1024px;
+	left:0px;
+	height:25px;
+	background-color:#CC6600;	
+}
+
+#menu:hover{
+	background-color:#CC3300;
+}
+
+#maininfo{
+	position:absolute;
+
+	text-align:left;
+	top:175px;
+	width:500px;
+	left:0px;
+	height:310px;
+	padding:10px;
+	overflow:visible;
+}
+
+#info_scroll{
+	position:absolute;
+	text-align:left;
+	width:560px;
+	left:0px;
+	height:310px;
+	padding:10px;
+	overflow:auto;
+	scrollbar-base-color:#669900;
+}
+
+#info_scroll_gb{
+	position:absolute;
+	text-align:left;
+	width:560px;
+	left:0px;
+	height:290px;
+	padding:10px;
+	overflow:auto;
+	scrollbar-base-color:#669900;
+}
+
+#contact{
+	position:absolute;
+	text-align:left;
+	top:205px;
+	width:250px;
+	left:650px;
+	height:150px;
+	background-image:url(../images/contactbg.gif);
+	background-repeat:no-repeat;
+	padding:10px;
+	color:#000000;
+	font-size:13px;
+}
+
+#contact2{
+	position:absolute;
+	text-align:left;
+	top:350px;
+	width:250px;
+	left:720px;
+	height:150px;
+	background-image:url(../images/contactbg.gif);
+	background-repeat:no-repeat;
+	padding:10px;
+	color:#000000;
+	font-size:13px;
+}
+
+#contact a{
+	color:#000000;
+	text-decoration:underline;
+}
+
+#contact2 a{
+	color:#000000;
+	text-decoration:underline;
+}
+
+#contact a:hover{
+	color:#0000CC;
+	text-decoration:none;
+}
+
+#contact2 a:hover{
+	color:#0000CC;
+	text-decoration:none;
+}
+
+#menu a{
+	color:#CCCCCC;
+}
+
+#menu a:hover{
+	color:#0000CC;
+}
+
+.guestbook{
+	width:500px;
+	font-size:10pt;
+	border:thin;
+	border-style:solid;
+	background-image:none;
+	background-color:#FBFDCC;
+}
+
+.guestbook_line{
+	font-size:10pt;
+	width:450px;
+
+}
+
+.contacttable
+{
+	margin-top:0px;
+}
+
+.contacttable tr
+{
+	padding-top:2px;
+	padding-bottom:2px;
+}
+
+.contacttable td
+{
+	padding-top:2px;
+	padding-bottom:2px;
+}
